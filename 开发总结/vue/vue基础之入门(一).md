@@ -19,6 +19,7 @@ iview: https://www.iviewui.com/
 mint-ui: http://mint-ui.github.io/#!/zh-cn (移动端)
 
 #### MVVM模式介绍
+***
 ##### MVVM模式
 - MVVM拆分解释为：
     - Model:负责数据存储
@@ -28,6 +29,7 @@ mint-ui: http://mint-ui.github.io/#!/zh-cn (移动端)
 - MVVM要解决的问题是将业务逻辑代码与视图代码进行完全分离，使各自的职责更加清晰，后期代码维护更加简单。
 
 #### Vue常用系统指令
+***
 - 插值表达式{{}}：
 数据绑定最常见的形式就是使用 “Mustache” 语法（双大括号）的文本插值        
 例如：`<span>Message: {{ msg }}</span>`
@@ -272,7 +274,7 @@ v-on:submit
 ```
 
 #### Vue在Chrome浏览器的调试工具Vue-Devtools
-
+***
 - 作用
 > Vue-Devtools是Chrome浏览器的一个扩展，通过Vue-Devtools可以实现在Chrome浏览器的调试工具栏中查看到Vue开发页面的相关数据对象，方法，事件，状态信息，方便程序员监控和调试解决问题
 - 地址
